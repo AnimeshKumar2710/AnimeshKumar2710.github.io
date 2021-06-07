@@ -1,0 +1,139 @@
+body {
+    margin: 0%;
+    text-align: center;
+    color: #40514e;
+    line-height: 2;
+    font-size: 1.5em;
+    font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    
+}
+.ml-auto{
+margin-left: auto;
+}
+.nav-item{
+    color: #da7f8f;
+    margin: 0px 20px;
+
+}
+.navbar-toggler{
+    border-color:#da7f8f;
+    border-width: 5px;
+
+}
+a {
+    text-decoration: none;
+    color: #da7f8f;
+    margin: 30px;
+}
+a:hover{
+    color: #40514e; 
+}
+.nav-link{
+    color: #da7f8f;
+}
+.nav-link:hover{
+    color: #40514e;
+}
+h1{
+    color: #da7f8f;
+    font-size: 6rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+h2, h3{
+    padding: 20px 0px 0px;
+    color: #da7f8f;
+    font-size: 2.1rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.9rem;
+}
+
+hr{
+    border-top: 10px dotted;
+    width: 50px;
+    color: #796f6f;
+    background-color: #e1e5ea;
+    margin: 100px auto;
+}
+
+
+
+.top-container {
+    background-color: #faf3f3;
+    position: relative;
+    padding-top: 0px;
+
+    
+}
+
+.middle-container{
+    padding: 100px 0px;
+    background-color: #e1e5ea;
+}
+
+
+    .skill-row{
+    
+        width: 50%;
+        text-align: left;
+        margin: 150px auto;
+    }
+    @media (max-width: 1111px) {
+        .skill-row{
+    
+            width: 80%;
+        }
+    }
+        .left-img{
+            height: 200px;
+            
+            float: left;
+            padding-right: 30px;
+        }
+        .right-img{
+            height: 200px;
+            
+            float: right;
+            padding-left: 30px;
+        }
+
+    .contact-me{
+        width: 60%;
+        margin: 10px auto;
+        padding-bottom: 50px;
+    }
+
+        .btn {
+            margin: 20px 0px;
+            text-decoration: solid;
+            background-color: #da7f8f;
+            padding: 15px;
+            border-radius: 20px;
+            color: #faf3f3;
+        }
+        .btn:hover{
+            background-color: #faf3f3;
+            color: #40514e; 
+        }
+
+
+.bottom-container{
+    padding: 50px 0px;
+    background-color: #a7bbc7;
+}
+
+    
+    .copy{
+        margin: 50px auto 25px;
+        color: #faf3f3;
+    }
+    .nav-bar{
+        padding: 0px;
+    }
