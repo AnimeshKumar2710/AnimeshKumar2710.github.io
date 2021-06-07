@@ -1,0 +1,46 @@
+.couch{
+    width: 32.5%;
+}
+
+.profile{
+    width: 50%;
+    margin: 50px auto;
+    
+}
+.cat{
+    width: 10%;
+    position: absolute;
+    left: 25%;
+    bottom: 12%;
+}
+
+.kitty{
+    width: 7.5%;
+    padding-top: 7.5%;
+    position: absolute;
+    left: 39%;
+    bottom: auto;
+}
+
+.coding{
+    width: 6%;
+    padding-top: 8%;
+    position: absolute;
+    right: 40%;
+    bottom: auto;
+}
+
+.camera{
+    width: 5%;
+    position: absolute;
+    bottom: 12%;
+    right: 25%;
+}
+
+.me-img{
+    height: 250px;
+    border-radius: 50%;
+}
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
