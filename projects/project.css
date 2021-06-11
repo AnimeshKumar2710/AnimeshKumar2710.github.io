@@ -11,5 +11,6 @@
 }
 
 .use{
-    text-size: 0.6rem;
+    text-size: 0.6em;
+    color: #626262;
 }
