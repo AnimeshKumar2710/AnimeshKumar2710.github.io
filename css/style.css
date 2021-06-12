@@ -92,13 +92,13 @@ hr{
         }
     }
         .left-img{
-            height: 200px;
+            height: 250px;
             
             float: left;
             padding-right: 30px;
         }
         .right-img{
-            height: 200px;
+            height: 250px;
             
             float: right;
             padding-left: 30px;
