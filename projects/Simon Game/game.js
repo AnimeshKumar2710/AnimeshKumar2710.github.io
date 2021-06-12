@@ -62,6 +62,10 @@ function checkAnswer(currentLevel){
         while(gamePattern.length > 0){
             gamePattern.pop();
         }
+        
+        while(userClickedPattern.length >0){
+                userClickedPattern.pop();
+        }
     }
 }
 
