@@ -33,6 +33,15 @@ function animatePress(color){
     }, 100);
 }
 
+$(".start").click(function(){
+    $(".start").text("Restart");
+    if (level == 0){
+        nextSequence();
+    }else{
+        reset();
+    }
+    l
+})
 $(document).keypress(function(e){
     if (level == 0){
         nextSequence();
@@ -58,14 +67,18 @@ function checkAnswer(currentLevel){
             $("body").removeClass('game-over');
         }, 100);
         playSound("wrong");
-        level = 0;
+        reset();
+    }
+}
+function reset(){
+    $(".start").text("Start");
+    level = 0;
         while(gamePattern.length > 0){
             gamePattern.pop();
         }
-        
         while(userClickedPattern.length >0){
-                userClickedPattern.pop();
-        }
+            userClickedPattern.pop();
     }
+    $("h1").text("Level " + level);
 }
 
