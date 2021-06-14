@@ -3,7 +3,7 @@
 }
 
 .profile{
-    width: 50%;
+    width: 70%;
     margin: 50px auto;
     
 }
@@ -44,3 +44,7 @@
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,102,203);
 } 
+
+.mobile-img{
+    height: 350px;
+}
