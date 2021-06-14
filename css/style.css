@@ -133,5 +133,6 @@ hr{
         padding: 0px;
     }
     .coding-update{
-        width: 20%;
+        position: relative;
+        top: 50px;
     }
