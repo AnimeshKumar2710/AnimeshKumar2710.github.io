@@ -7,7 +7,7 @@ if ($(document).width() < 1000){
     if(randomNumberOne == 0){
         $(".coding").show().addClass("coding-update").removeClass("coding");
     }else{
-        $(".coding").show().removeClass("coding");
+        $(".coding").show().removeClass("coding").css("width", "15%");
     }
     $("." + pngCats[randomNumberOne]).addClass("mobile-img").removeClass(pngCats[randomNumberOne]);
 }else{
