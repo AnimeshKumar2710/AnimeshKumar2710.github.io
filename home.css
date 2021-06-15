@@ -45,10 +45,6 @@
     height: 250px;
     border-radius: 50%;
 }
-.custom-toggler.navbar-toggler {
-  border-color: rgb(255,102,203);
-} 
-
 .mobile-img{
     width: 20%;
 }
