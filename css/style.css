@@ -93,12 +93,7 @@ hr{
             padding-top: 30px;
             float: right;
         }
-    @media (max-width: 1000px){
-
-        .right-img{
-            float: left;
-        }
-    }
+    
     .contact-me{
         width: 60%;
         margin: 10px auto;
@@ -135,4 +130,25 @@ hr{
     .coding-update{
         position: relative;
         top: 50px;
+    }
+
+    .small{
+        visibility: hidden;
+        position: absolute;
+    }
+    @media (max-width: 1000px){
+
+        .right-img{
+            float: left;
+        }
+
+        .small{
+            visibility: visible;
+            position: inherit;
+        }
+        .big{
+            visibility: hidden;
+            position: absolute;
+            width: auto;
+        }
     }
