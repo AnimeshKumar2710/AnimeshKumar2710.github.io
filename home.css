@@ -29,7 +29,11 @@
     right: 40%;
     bottom: auto;
 }
-
+.coding-update{
+    width: 10%;
+    position: relative;
+    top: 50px;
+}
 .camera{
     width: 5%;
     position: absolute;
@@ -46,5 +50,5 @@
 } 
 
 .mobile-img{
-    height: 20%;
+    width: 20%;
 }
