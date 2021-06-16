@@ -58,7 +58,6 @@ a{
     transform: rotate(25deg);
     position: absolute;
     right: 25%;
-    z-index: 0;
 }
 
 @media (max-width: 1111px) {
