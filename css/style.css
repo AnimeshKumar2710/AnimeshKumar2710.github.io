@@ -15,10 +15,8 @@ margin-left: auto;
     margin: 0px 20px;
 
 }
-.navbar-toggler{
-    border-color:#da7f8f;
-    border-width: 5px;
-
+.navbar-toggler-icon{
+    color:#da7f8f;
 }
 a {
     text-decoration: none;
