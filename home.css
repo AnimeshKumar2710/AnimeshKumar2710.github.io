@@ -4,7 +4,7 @@
 
 .profile{
     width: 70%;
-    margin: 50px auto;
+    margin: 50px auto; /* auto usualy centers the element, wont work for vertical, unless you use grid*/
     
 }
 .cat{
