@@ -1,17 +1,19 @@
-drums = document.querySelectorAll(".drum");
+//Using DOM to make this page work
 
-for(var i = 0; i < drums.length; i++){
+drums = document.querySelectorAll(".drum"); // this will get all the buttons for us
+
+for(var i = 0; i < drums.length; i++){  //adding click listener to every button
     drums[i].addEventListener("click", function(){
-        makeSound(this.innerHTML);
-        buttonAnimation(this.innerHTML);
+        makeSound(this.innerHTML);  //calling the function for making the correct sound
+        buttonAnimation(this.innerHTML);    //for the animation
     });
 }
-document.addEventListener("keydown", function(event){
+document.addEventListener("keydown", function(event){   //this is the keydown event so to get to know if the keyboard is pressed to do the same thing as click 
     makeSound(event.key);
     buttonAnimation(event.key);
 });
 function makeSound(key){
-    switch (key){
+    switch (key){ //switch always works
         case "w":
             var tom1 = new Audio("sounds/tom-1.mp3");
             tom1.play();
@@ -47,7 +49,7 @@ function makeSound(key){
 function buttonAnimation(key){
     var activeButton = document.querySelector("." + key);
     activeButton.classList.add("pressed");
-    setTimeout(function(){
+    setTimeout(function(){ //run the code after 100ms
         activeButton.classList.remove("pressed");
     }, 100);
     
