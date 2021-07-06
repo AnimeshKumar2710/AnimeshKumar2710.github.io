@@ -5,13 +5,13 @@ body {
     line-height: 2;
     font-size: 30px;
     font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
-    
+    /*I am not sure why this usualy doesn't work on h1*/
 }
 .ml-auto{
-margin-left: auto;
+margin-left: auto; /* push the element to the right*/
 }
 .nav-item{
-    color: #da7f8f;
+    color: #da7f8f; /*can make a variable*/
     margin: 0px 20px;
 
 }
