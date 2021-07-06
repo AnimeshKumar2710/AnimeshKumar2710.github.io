@@ -9,7 +9,7 @@
 }
 .cat{
     width: 10%;
-    position: absolute;
+    position: absolute; /* this takes the element out of the flow, that is it will be above the page itself. need the parent to be relative for this to work*/
     left: 25%;
     bottom: 12%;
 }
@@ -31,7 +31,7 @@
 }
 .coding-update{
     width: 10%;
-    position: relative;
+    position: relative; /*if you want to change the position relative to the root position of the element, doesnt take the element out of the flow*/
     top: 50px;
 }
 .camera{
