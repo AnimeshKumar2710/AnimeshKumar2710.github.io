@@ -39,9 +39,9 @@ function makeSound(key){
             kick.play();
             break;
         case "l":
-        var kick = new Audio("sounds/snare.mp3");
-        kick.play();
-        break;
+            var snare = new Audio("sounds/snare.mp3");
+            snare.play();
+            break;
         default:
             console.log("Please don't mess with someone elses code, its rude.");
     }
