@@ -1,4 +1,4 @@
-const random = Math.floor(Math.random() * 152); //getting a random pokemon from first gen
+const random = Math.floor(Math.random() * 650); //getting a random pokemon from first gen
 const url = "https://pokeapi.co/api/v2/pokemon/" + random; // creating the url for the request
 //console.log(url);
 
